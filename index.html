@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Lam - Cybersecurity Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>Jordan Lam</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Cybersecurity</span><br>
+                        Professional
+                    </h1>
+                    <p class="hero-subtitle">
+                        Protecting digital infrastructure through innovative security solutions and ethical hacking practices.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <span class="terminal-title">security@jordanlam:~$</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">whoami</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="output">jordanlam - cybersecurity enthusiast</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">cat skills.txt</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="output">penetration testing | incident response | threat analysis</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command typing">nmap -sS target.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="matrix-rain"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate cybersecurity professional with a strong foundation in information security, 
+                        ethical hacking, and digital forensics. My journey began with curiosity about how systems work 
+                        and how to protect them from malicious actors.
+                    </p>
+                    <p class="about-description">
+                        With hands-on experience in penetration testing, incident response, and security analysis, 
+                        I'm dedicated to staying ahead of emerging threats and developing innovative security solutions. 
+                        I believe in the power of continuous learning and ethical practices in cybersecurity.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Security Assessments</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Jordan Lam</h3>
+                            <p>Cybersecurity Specialist</p>
+                            <div class="profile-links">
+                                <a href="#" class="profile-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="profile-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="profile-link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-bug"></i>
+                        Penetration Testing
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Nmap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Metasploit</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Burp Suite</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OWASP ZAP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-shield-alt"></i>
+                        Security Analysis
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SIEM Tools</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Wireshark</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Splunk</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Threat Hunting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming & Scripting
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bash/Shell</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PowerShell</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-certificate"></i>
+                        Certifications
+                    </h3>
+                    <div class="certifications">
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>CompTIA Security+</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>CEH (Certified Ethical Hacker)</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>OSCP (Offensive Security)</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>GCIH (GIAC)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Vulnerability Scanner</h3>
+                    <p class="project-description">
+                        Automated web application vulnerability scanner built with Python. 
+                        Detects common OWASP Top 10 vulnerabilities and generates detailed reports.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Requests</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">SQLite</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Network Monitor</h3>
+                    <p class="project-description">
+                        Real-time network traffic analysis tool with anomaly detection capabilities. 
+                        Monitors network behavior and alerts on suspicious activities.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scapy</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">D3.js</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Password Security Tool</h3>
+                    <p class="project-description">
+                        Comprehensive password security assessment tool that checks password strength, 
+                        common patterns, and provides security recommendations.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Hashlib</span>
+                        <span class="tech-tag">Tkinter</span>
+                        <span class="tech-tag">Regex</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-virus"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Malware Analysis Lab</h3>
+                    <p class="project-description">
+                        Isolated environment for malware analysis with automated sandboxing, 
+                        behavioral analysis, and threat intelligence integration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">YARA</span>
+                        <span class="tech-tag">Cuckoo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Junior Security Analyst</h3>
+                            <span class="timeline-period">2023 - Present</span>
+                        </div>
+                        <h4 class="timeline-company">CyberDefense Solutions</h4>
+                        <ul class="timeline-description">
+                            <li>Conducted vulnerability assessments and penetration testing for client networks</li>
+                            <li>Analyzed security incidents and provided remediation recommendations</li>
+                            <li>Developed automated security tools and scripts to improve efficiency</li>
+                            <li>Collaborated with SOC team on threat hunting and incident response</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Security Intern</h3>
+                            <span class="timeline-period">2022 - 2023</span>
+                        </div>
+                        <h4 class="timeline-company">TechSecure Inc.</h4>
+                        <ul class="timeline-description">
+                            <li>Assisted in security audits and compliance assessments</li>
+                            <li>Monitored security tools and analyzed alerts</li>
+                            <li>Created security awareness training materials</li>
+                            <li>Participated in red team exercises and tabletop simulations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">IT Support Specialist</h3>
+                            <span class="timeline-period">2021 - 2022</span>
+                        </div>
+                        <h4 class="timeline-company">DataFlow Systems</h4>
+                        <ul class="timeline-description">
+                            <li>Provided technical support for network infrastructure</li>
+                            <li>Implemented security policies and user access controls</li>
+                            <li>Troubleshot system vulnerabilities and security issues</li>
+                            <li>Maintained documentation for security procedures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing cybersecurity challenges, 
+                    new opportunities, or collaborating on security projects.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>jordan.lam@cybersecurity.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Jordan Lam. All rights reserved.</p>
+                    <p>Built with passion for cybersecurity and web development.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
